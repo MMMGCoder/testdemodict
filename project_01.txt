@@ -72,7 +72,12 @@ HTTPSERVER3.0(自己看视频)   2天 + 1天
 2. 编写.gitignore文件，过滤掉__pycache__/文件
 3. 将所有在工作区的代码提交到暂存区 git add .
 4. 将暂存区的代码提交到本地仓库 git commit -m"提交电子词典项目v5.0"
-
+5. 在github创建远程仓库
+    5.1  创建远程仓库
+        git remote add origin(如果重复可改名) https://github.com/xxxxx.git
+    5.2 让本地仓库和远程仓库建立连接
+        git push -u origin(如果重复可改名) master
+    5.3 刷新页面，会发现项目已经同步到了github
 
 
 
